@@ -18,7 +18,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 
 # Load the dataset
-X = pd.read_csv('titanic_data.csv')
+X = pd.read_csv('../../titanic_data.csv')
 # Limit to numeric data
 X = X._get_numeric_data()
 # Separate the labels
